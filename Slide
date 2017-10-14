@@ -1,0 +1,10 @@
+JDK 9 Overview
+
+* Things you get for free:
+    - Better use of memory
+    - Better use of hardware
+    - Better documentation
+    - Improved performance
+    - Faster compilation
+
+* Let's have a look at code to check out the actual changes
