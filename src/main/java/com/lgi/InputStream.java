@@ -2,16 +2,33 @@ package com.lgi;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
+
+import static com.lgi.Util.println;
 
 public class InputStream {
-    public static void main(String[] args) {
-        System.out.println(
-                getDataFromIsJava8(ClassLoader.getSystemResourceAsStream("story.txt")));
+    public static void main(String[] args) throws IOException {
+        // readAllBytes
+        println(getDataFromIsJava8(ClassLoader.getSystemResourceAsStream("story.txt")));
+        println(getDataFromIsJava9(ClassLoader.getSystemResourceAsStream("story.txt")));
 
-        System.out.println();
+        // readNBytes
+        println(readNBytes(ClassLoader.getSystemResourceAsStream("story.txt")));
 
-        System.out.println(
-                getDataFromIsJava9(ClassLoader.getSystemResourceAsStream("story.txt")));
+        // transferTo
+        OutputStream baos = new ByteArrayOutputStream();
+        ClassLoader.getSystemResourceAsStream("story.txt").transferTo(baos);
+        println(baos);
+    }
+
+    private static String readNBytes(java.io.InputStream is) {
+        byte[] partialData = new byte[20];
+        try {
+            is.readNBytes(partialData, 0, 20);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new String(partialData);
     }
 
     private static String getDataFromIsJava9(java.io.InputStream is) {
