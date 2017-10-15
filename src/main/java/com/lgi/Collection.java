@@ -14,7 +14,6 @@ public class Collection {
     }
 
     private static void checkOutMaps() {
-//        just ugly..
 //        Map<String, Integer> turtlesMap = Map.of(
 //                "Leonardo", 0,
 //                "Donatello", 1,
