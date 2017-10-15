@@ -1,4 +1,4 @@
-##JDK 9 Demo
+## JDK 9 Demo
 
 + Things you get for free:
     - Better use of memory
