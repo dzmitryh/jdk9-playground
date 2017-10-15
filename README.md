@@ -19,6 +19,11 @@
 + Updated Deprecation - and mark for removal
 + Javadoc search
 
+Refs:
+- https://docs.oracle.com/javase/9/
+- https://www.sitepoint.com/ultimate-guide-to-java-9/
+- http://www.baeldung.com/java-9-process-api
+
                   _.---._
               _.-(_o___o_)
               )_.'_     _'.
