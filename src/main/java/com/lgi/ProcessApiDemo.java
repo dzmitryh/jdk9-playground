@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import static com.lgi.Util.println;
 import static java.util.Arrays.asList;
 
-public class ProcessApi {
+public class ProcessApiDemo {
     public static void main(String[] args) throws IOException {
         observeProcessInfo();
 

@@ -1,5 +1,6 @@
 package com.lgi;
 
+import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;
 import jdk.incubator.http.HttpResponse;
 
@@ -8,9 +9,9 @@ import java.net.URISyntaxException;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 
-public class HttpClient {
+public class HttpClientDemo {
     public static void main(String[] args) {
-        jdk.incubator.http.HttpClient httpClient = jdk.incubator.http.HttpClient.newHttpClient();
+        HttpClient httpClient = HttpClient.newHttpClient();
         try {
             HttpRequest request = HttpRequest.newBuilder().GET()
                     .uri(new URI("http://google.com"))

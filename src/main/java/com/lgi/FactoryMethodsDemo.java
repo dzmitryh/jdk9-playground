@@ -7,7 +7,7 @@ import java.util.Objects;
 
 import static java.util.Map.entry;
 
-public class FactoryMethods {
+public class FactoryMethodsDemo {
     public static void main(String[] args) {
         checkOutLists();
         checkOutMaps();

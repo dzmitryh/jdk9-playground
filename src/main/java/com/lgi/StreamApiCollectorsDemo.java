@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.lgi.Util.println;
 
-public class StreamApiCollectors {
+public class StreamApiCollectorsDemo {
     public static void main(String[] args) {
         // filtering grouping collector
         List<Integer> numbers = List.of(1, 2, 3, 5, 5);

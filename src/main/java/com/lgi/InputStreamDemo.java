@@ -2,11 +2,12 @@ package com.lgi;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 
 import static com.lgi.Util.println;
 
-public class InputStream {
+public class InputStreamDemo {
     public static void main(String[] args) throws IOException {
         // readAllBytes
         println(getDataFromIsJava8(ClassLoader.getSystemResourceAsStream("story.txt")));
@@ -21,7 +22,7 @@ public class InputStream {
         println(baos);
     }
 
-    private static String readNBytes(java.io.InputStream is) {
+    private static String readNBytes(InputStream is) {
         byte[] partialData = new byte[20];
         try {
             is.readNBytes(partialData, 0, 20);
@@ -31,7 +32,7 @@ public class InputStream {
         return new String(partialData);
     }
 
-    private static String getDataFromIsJava9(java.io.InputStream is) {
+    private static String getDataFromIsJava9(InputStream is) {
         try {
             return new String(is.readAllBytes());
         } catch (IOException e) {
@@ -39,7 +40,7 @@ public class InputStream {
         }
     }
 
-    private static String getDataFromIsJava8(java.io.InputStream is) {
+    private static String getDataFromIsJava8(InputStream is) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
         int nRead;
         byte[] data = new byte[8192];
