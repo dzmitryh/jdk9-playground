@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
-public class StreamApi {
+public class StreamApiNewMethods {
     private static final List<String> allHeroes =
             List.of("Leonardo", "Donatello", "Raphael", "Michelangelo", "Shredder", "Bebop");
 
