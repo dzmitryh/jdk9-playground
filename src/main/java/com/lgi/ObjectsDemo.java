@@ -17,6 +17,7 @@ public class ObjectsDemo {
 
         Objects.checkIndex(3, ninjaTurtles.size());
         println(Objects.requireNonNullElse(ninjaTurtles.get(3), "Unknown hero"));
+        // but still not the Elvis operator.. Let's wait java 10 -> println(ninjaTurtles.get(3) ?: "Unknown hero");
         println(Objects.requireNonNullElseGet(ninjaTurtles.get(3), ObjectsDemo::findHero));
     }
 
