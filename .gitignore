@@ -73,3 +73,12 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+.java-version
+.idea/checkstyle-idea.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+target/
+.idea/compiler.xml
+.idea/modules.xml
+.idea/vcs.xml
+jdk9-playground.iml
