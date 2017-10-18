@@ -1,5 +1,6 @@
 module com.lgi.main {
+    requires com.lgi.commons;
     requires jdk.incubator.httpclient;
     requires com.google.common;
-    requires com.lgi.commons;
+    requires commons.io;
 }
