@@ -1,4 +1,4 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.util.Arrays;
 import java.util.List;

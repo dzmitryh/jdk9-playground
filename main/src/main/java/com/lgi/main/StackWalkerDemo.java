@@ -1,8 +1,10 @@
-package com.lgi;
+package com.lgi.main;
+
+import com.lgi.commons.util.PrintUtil;
 
 import java.util.stream.Stream;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 
 public class StackWalkerDemo {
     public static void main(String[] args) {
@@ -19,7 +21,7 @@ public class StackWalkerDemo {
 
     private static void three() {
         String line = StackWalker.getInstance().walk(StackWalkerDemo::walk);
-        StackWalker.getInstance().forEach(Util::println);
+        StackWalker.getInstance().forEach(PrintUtil::println);
         println(line);
     }
 

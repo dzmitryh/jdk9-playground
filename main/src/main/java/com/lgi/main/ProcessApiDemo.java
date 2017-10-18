@@ -1,11 +1,11 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 import static java.util.Arrays.asList;
 
 public class ProcessApiDemo {

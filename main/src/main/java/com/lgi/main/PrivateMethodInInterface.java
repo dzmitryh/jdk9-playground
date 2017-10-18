@@ -1,8 +1,8 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.util.stream.IntStream;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 
 public class PrivateMethodInInterface {
     public static void main(String[] args) {

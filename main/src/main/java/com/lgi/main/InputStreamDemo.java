@@ -1,11 +1,11 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 
 public class InputStreamDemo {
     public static void main(String[] args) throws IOException {

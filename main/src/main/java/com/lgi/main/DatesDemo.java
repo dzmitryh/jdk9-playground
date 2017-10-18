@@ -1,11 +1,11 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 import static java.util.stream.Collectors.toList;
 
 public class DatesDemo {

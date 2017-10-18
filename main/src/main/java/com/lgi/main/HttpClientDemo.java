@@ -1,4 +1,4 @@
-package com.lgi;
+package com.lgi.main;
 
 import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;

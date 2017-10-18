@@ -1,11 +1,11 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 import static com.google.common.base.Preconditions.checkArgument;
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 
 public class StreamApiCollectorsDemo {
     public static void main(String[] args) {

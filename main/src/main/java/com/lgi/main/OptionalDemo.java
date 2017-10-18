@@ -1,11 +1,11 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 
 public class OptionalDemo {
     public static void main(String[] args) {

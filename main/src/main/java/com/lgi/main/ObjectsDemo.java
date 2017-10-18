@@ -1,10 +1,10 @@
-package com.lgi;
+package com.lgi.main;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-import static com.lgi.Util.println;
+import static com.lgi.commons.util.PrintUtil.println;
 
 public class ObjectsDemo {
     public static void main(String[] args) {
