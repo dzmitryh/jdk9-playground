@@ -11,7 +11,7 @@
 ### Features:
 
 + Jigsaw
-![alt text](new-jdk-strucutre.png "New jdk structure")
+![Image](blob/master/main/src/main/resources/new-jdk-structure.png?raw=true "New jdk structure")
 + Jshell - REPL
 + New methods in Stream API
 + Reactive API are a part of jdk
