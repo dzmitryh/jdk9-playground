@@ -26,6 +26,7 @@
 
 - https://docs.oracle.com/javase/9/
 - https://www.sitepoint.com/ultimate-guide-to-java-9/
+- http://www.baeldung.com/project-jigsaw-java-modularity
 - http://www.baeldung.com/java9-stream-collectors
 - http://www.baeldung.com/java-9-process-api
 
