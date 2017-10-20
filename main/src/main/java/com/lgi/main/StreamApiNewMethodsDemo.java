@@ -44,37 +44,4 @@ public class StreamApiNewMethodsDemo {
     private static Turtle getTurtle(String name) {
         return new Turtle(name);
     }
-
-//    public class Turtle {
-//        final String name;
-//
-//        private Turtle(String name) {
-//            this.name = name;
-//        }
-//
-//        Stream<Weapon> weapons() {
-//            return Stream.of(
-//                    new Weapon("katana", 40),
-//                    new Weapon("sai", 20),
-//                    new Weapon("nunchaku", 30));
-//        }
-//    }
-//
-//    private static class Weapon {
-//        final String name;
-//        final int damage;
-//
-//        Weapon(String name, int damage) {
-//            this.name = name;
-//            this.damage = damage;
-//        }
-//
-//        @Override
-//        public String toString() {
-//            return "Weapon{" +
-//                    "name='" + name + '\'' +
-//                    ", damage=" + damage +
-//                    '}';
-//        }
-//    }
 }
