@@ -17,9 +17,9 @@
 + Factory methods in collections
 + Private methods in interfaces
 + Stack-Walking API
-+ Multi-Releases Jar files - for migration purposes 
++ Multi-Releases Jar files
 + Process API updates 
-+ Updated Deprecation - and mark for removal
++ Updated Deprecation
 + Javadoc search
 
 ### References:
