@@ -11,7 +11,6 @@
 ### Features:
 
 + Jigsaw
-![Image](https://github.com/dzmitryh/jdk9-playground/blob/master/main/src/main/resources/new-jdk-structure.png "New jdk structure")
 + Jshell - REPL
 + New methods in Stream API
 + Reactive API are a part of jdk
